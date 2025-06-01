@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #1e293b;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.item {
+    background-color: #7e22ce;
+    margin: 10px;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}

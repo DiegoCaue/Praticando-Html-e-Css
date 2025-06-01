@@ -1,0 +1,123 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+ }
+
+ body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('./img/img.jpg');
+    background-size: cover;
+    background-position: center;
+ }
+
+ .container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255,255, .2);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+ }
+
+ h1 {
+    font-size: 36px;
+    text-align: center;
+ }
+
+ .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100% ;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255,255, .2);
+    outline: none;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: rgb(215, 215, 215);
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Lembrar {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.Lembrar label input {
+    accent-color: #fff;
+    margin-right: 5px;
+}
+
+.Lembrar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Lembrar a:hover {
+    text-decoration: underline;
+}
+
+.Login {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+
+}
+
+.Login:hover {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255,255, .2);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.Registra-se {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15;
+}
+
+.Registra-se a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.Registra-se a:hover {
+    text-decoration: underline;
+}

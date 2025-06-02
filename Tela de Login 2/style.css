@@ -12,7 +12,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   height: 100vh;
+    min-height: 100vh;
+    overflow: hidden; /*Faz com que bloqueia barra de rolamento*/
+    background: linear-gradient(to bottom, #2a1b6d, #5c44a2);
+    position: relative; /* serve para posicionar um elemento em relação à sua posição original no fluxo normal da página. 
+    Ou seja, ele permanece no local onde estaria normalmente, 
+    mas você pode ajustar sua posição usando as propriedades top, right, bottom e left.*/
+ }
+
+ .estrelas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+    radial-gradient(2px 2px at 50% 40%, #fff, transparent),
+    radial-gradient(2px 2px at 25% 15%, #fff, transparent),
+    radial-gradient(2px 2px at 60% 30%, #fff, transparent),
+    radial-gradient(2px 2px at 80% 10%, #fff, transparent),
+    radial-gradient(2px 2px at 70% 90%, #fff, transparent),
+    radial-gradient(2px 2px at 11% 15%, #fff, transparent),
+    radial-gradient(2px 2px at 12% 80%, #fff, transparent),
+    radial-gradient(2px 2px at 25% 90%, #fff, transparent),
+    radial-gradient(2px 2px at 47% 94%, #fff, transparent)
+
+    
+    
+
+
  }
 
  .container {
@@ -28,6 +56,7 @@
  h1 {
     font-size: 36px;
     text-align: center;
+    color: #fff;
  }
 
  .input-box {
@@ -64,6 +93,7 @@
     display: flex;
     justify-content: space-between;
     margin: -15px 0 15px;
+    color: #fff;
 }
 
 .Lembrar-Esquecer input{
@@ -94,5 +124,21 @@ button {
     margin-top: 20px;
 }
 
+.registrar {
+    font-size: 14px;
+    text-align: center;
+   margin: 20px 0 15;
+   color: #fff;
+}
 
+.registrar a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.registrar a:hover {
+    text-decoration: underline;
+}
 

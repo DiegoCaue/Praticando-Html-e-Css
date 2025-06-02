@@ -1,0 +1,1 @@
+Position: Relative =  serve para posicionar um elemento em relação à sua posição original no fluxo normal da página. Ou seja, ele permanece no local onde estaria normalmente, mas você pode ajustar sua posição usando as propriedades top, right, bottom e left.
